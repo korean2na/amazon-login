@@ -1,0 +1,167 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    font-family: arial, sans-serif;
+    overflow: auto;
+    overflow: initial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, input::placeholder {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    height: 340px;
+    width: 460px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 25px;
+    padding-top: 0px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box-item {
+    width: 410px;
+}
+
+.box-item input {
+    height: 36px;
+    width: 410px;
+}
+
+form {
+    font-size: 15px;
+}
+
+#email {
+    padding-bottom: 10px;
+}
+
+#email-box {
+    padding-bottom: 25px;
+}
+
+.password-forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+#forgot {
+    font-size: 16px;
+}
+
+#password-box {
+    padding-bottom: 20px;
+}
+
+input[type=submit] {
+    height: 33px;
+    font-size: 14px;
+    background-color: #f7c548;
+    border-radius: 3px;
+    border-style:unset;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+
+#help {
+    width: 410px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.bottom {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-item {
+    justify-content: center;
+}
+
+#new-amazon {
+    color: gray;
+    margin-top: 10px;
+}
+
+#new-amazon:before,
+#new-amazon:after {
+    background-color: gray;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 140px;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#new-member {
+    font-size: 15px;
+    height: 35px;
+    width: 435px;
+    border: 2px solid lightgray;
+    padding-top: 5px;
+}
+
+footer {
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer hr {
+    color: lightgray;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.bottom-links {
+    width: 250px;
+    padding-top: 40px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-link {
+    font-size: 13px;
+}
+
+#copyright {
+    padding-top: 15px;
+}
